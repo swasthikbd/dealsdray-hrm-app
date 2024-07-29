@@ -1,0 +1,43 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    background: url('https://www.freepik.com/free-photo/colorful-shopping-bags_1248943.htm#fromView=search&page=1&position=3&uuid=e0ad6a2d-b73f-46af-92ac-b6f48417ce62C:\swasthik\work\MERN\sample-apps\employee-management\public') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .login-input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .login-button {
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
